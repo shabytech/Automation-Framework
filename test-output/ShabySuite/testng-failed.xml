@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [ShabySuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="ShabyTest(failed)">
+    <classes>
+      <class name="selenium.TestNGPractice">
+        <methods>
+          <include name="testng3"/>
+        </methods>
+      </class> <!-- selenium.TestNGPractice -->
+    </classes>
+  </test> <!-- ShabyTest(failed) -->
+</suite> <!-- Failed suite [ShabySuite] -->
